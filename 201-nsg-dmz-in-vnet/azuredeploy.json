@@ -10,7 +10,7 @@
     },
     "virtualNetworkName": {
       "type": "string",
-      "defaultValue": "First_ARM_VNet",
+      "defaultValue": "Second_ARM_VNet",
       "metadata": {
         "description": "This is your Virtual Network"
       }
@@ -45,21 +45,21 @@
     },
     "FENSGName": {
       "type": "string",
-      "defaultValue": "FE_NSG",
+      "defaultValue": "RED_NSG",
       "metadata": {
         "description": "This is name of the networkSecurityGroup that will be assigned to FrontEnd Subnet"
       }
     },
     "AppNSGName": {
       "type": "string",
-      "defaultValue": "App_NSG",
+      "defaultValue": "Application_NSG",
       "metadata": {
         "description": "This is name of the networkSecurityGroup that will be assigned to Application Subnet"
       }
     },
     "DBNSGName": {
       "type": "string",
-      "defaultValue": "DB_NSG",
+      "defaultValue": "DataBase_NSG",
       "metadata": {
         "description": "This is name of the networkSecurityGroup that will be assigned to Database Subnet"
       }
