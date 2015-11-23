@@ -21,13 +21,13 @@
       "value": "10.0.2.0/24"
     },
     "FENSGName": {
-      "value": "rednsg"
+      "value": "fensg"
     },
     "AppNSGName": {
-      "value": "applicationnsg"
+      "value": "appnsg"
     },
     "DBNSGName": {
-      "value": "databasensg"
+      "value": "dbnsg"
     }
   }
 }
