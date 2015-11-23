@@ -3,10 +3,10 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "location": {
-      "value": "West US"
+      "value": "East US"
     },
     "virtualNetworkName": {
-      "value": "First_ARM_VNet"
+      "value": "Second_ARM_VNet"
     },
     "addressPrefix": {
       "value": "10.0.0.0/16"
@@ -21,13 +21,13 @@
       "value": "10.0.2.0/24"
     },
     "FENSGName": {
-      "value": "fensg"
+      "value": "rednsg"
     },
     "AppNSGName": {
-      "value": "appnsg"
+      "value": "applicationnsg"
     },
     "DBNSGName": {
-      "value": "dbnsg"
+      "value": "databasensg"
     }
   }
 }
